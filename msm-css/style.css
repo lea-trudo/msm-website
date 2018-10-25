@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Amiri|Crimson+Text|Frank+Ruhl+Libre|Lato|Lora|Montserrat|Open+Sans|Philosopher|Roboto|Source+Sans+Pro|Source+Serif+Pro");
+
+@import url("components/container.css");
+
+@import url("components/banner.css");
+
+@import url("components/button.css");
+
+@import url("components/navigation.css");
+
+@import url("components/box.css");
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	margin:0px;
+}
+
+h1, h2, h3{
+	font-family:'Frank Ruhl Libre', serif;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+
+h2,h3{
+	text-align:center;
+}
+
+.pictos{
+	margin-right:7px;
+}
+
+
+.list-without-bullet-point {
+  list-style-type: none;
+}
+
+#nos-services, #a-propos{
+	border:3px ridge red;
+	margin-bottom: 0px;
+	margin-right:20px;
+	margin-left: 20px;
+}

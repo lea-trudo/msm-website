@@ -1,0 +1,68 @@
+.navigation{
+    display: table;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0;
+    background: black;
+    background: linear-gradient black;
+    background: -webkit-linear-gradient black;
+    background:    -moz-linear-gradient black;
+    background:     -ms-linear-gradient black;
+    background:      -o-linear-gradient black;
+    background:         linear-gradient black;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+                0 3px 5px rgba(0, 0, 0, .2),
+                0 5px 10px rgba(0, 0, 0, .2),
+                0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.navigation li{
+    display: table-cell;
+}
+
+.navigation li a{
+	display: block;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Frank Ruhl Libre', serif;
+    color: #e0dcf2; 
+    text-decoration: none;
+    padding: 5px 1px 10px 1px;
+    box-shadow: 0 1px 0 white inset, 
+                0 -1px 0 black inset, 
+                0 -2px 0 black inset, 
+                0 -3px 0 black inset, 
+                0 -4px 0 black inset, 
+                0 -5px 0 black inset;
+    transition: all .3s .1s;
+}
+
+.navigation li:first-child a{
+    border-radius: 3px 0 0 3px;
+}
+.navigation li:last-child a{
+    border-radius: 0 3px 3px 0;
+}
+
+.navigation li a:hover, 
+.navigation li a:focus{
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 
+                0 -1px 0 #e0dcf2 inset, 
+                0 -2px 0 #e0dcf2 inset, 
+                0 -3px 0 #e0dcf2 inset, 
+                0 -4px 0 #e0dcf2 inset, 
+                0 -5px 0 #e0dcf2 inset; 
+    padding: 5px 3px 10px 3px;
+    transition: all .3s 0s;
+} 
+
+.navigation li a:hover{
+	color: #e0dcf2;
+}
+
+.navigation li a:active{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+    box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+}

@@ -1,0 +1,85 @@
+/*Nos services */
+
+.services-flexbox{
+	display:flex;
+	flex-wrap: wrap;
+	background-color: #e5e5e5;
+	margin: 0px 20px;
+/*	margin:0px;*/
+/*	border:3px ridge blue;*/
+}
+
+.services-card{
+/*	padding: 10px;*/
+	flex-basis: 80px;
+	flex-direction: column;
+	align-self: center;
+	justify-content: start;
+	margin-top:0px;
+	margin-left:20px;
+	margin-right:20px;
+	flex-grow: 1;
+	border-radius: 6px;
+	height:250px;
+	width:400px;
+	/*border:3px ridge red;*/
+}
+
+
+/*A propos*/
+.a-propos-box{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fcede3;
+	margin: 0px 20px;
+}
+
+.txt-colonnes{
+	background-color: #fcede3;
+	/*padding: 15px;*/
+ 	margin: 20px;
+	flex-basis:30px;
+	flex-direction: column;
+	align-self: center;
+	justify-content: start;
+	flex-grow: 1;
+	border-radius: 6px;
+	height:400px;
+	width: 400px;
+
+}
+
+/*contactez-nous*/
+.contact-box{
+	background-color: #E4C3AD;
+	border-radius: 15px 0px 15px 0px;
+	padding: 10px;
+ 	margin: 20px;
+ 	/*border: 5px solid #fcede3;*/
+}
+
+
+/*Mise en page flexbox*/
+.box-page{
+	display:flex;
+	flex-wrap:wrap;
+	align-items: stretch; 
+}
+
+.mep{
+	flex-basis: 500px;
+	align-self: center;
+	justify-content:space-around;
+	flex-grow:1;
+}
+
+
+.img-eiffel-tower{
+	width: 25%;	
+}
+
+
+/*flexbox texte*/
+.txt-web{
+	width:75%;
+}
