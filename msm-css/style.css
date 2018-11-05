@@ -12,23 +12,26 @@
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size:18px;
+	font-size:16px;
 	margin:0px;
+	background-color: black;
 }
 
 h1, h2, h3{
 	font-family:'Frank Ruhl Libre', serif;
+	letter-spacing: 0.5px;
+	text-align:center;
 }
 
+#contact h2{
+	text-align: left;
+
+}
 
 a{
 	text-decoration: none;
 }
 
-
-h2,h3{
-	text-align:center;
-}
 
 .pictos{
 	margin-right:7px;
@@ -40,8 +43,22 @@ h2,h3{
 }
 
 #nos-services, #a-propos{
-	border:3px ridge red;
 	margin-bottom: 0px;
 	margin-right:20px;
 	margin-left: 20px;
+	border-bottom:3px solid black;
+	padding:10px;
+	border-radius: 8px 8px 0px 0px;
+}
+
+#nos-services{
+	background-color: #e5e5e5;
+}
+
+#a-propos{
+	background-color: #fcede3;
+}
+
+img{
+		border-radius: 5px;
 }
